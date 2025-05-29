@@ -1,12 +1,42 @@
-# React + Vite
+# React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive To-Do List application built with React.js. Manage your daily tasks by adding, editing, deleting, and marking them as completed. This app also includes pagination for easier task navigation.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live app here:  
+[https://to-do-list-using-react-blush.vercel.app/](https://to-do-list-using-react-blush.vercel.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks quickly
+- Inline editing of existing tasks
+- Delete tasks effortlessly
+- Toggle task completion status
+- Pagination support (3 tasks per page)
+- Clean and responsive UI with modern styling
+
+## Technologies Used
+
+- React.js (Functional Components and Hooks)
+- JavaScript (ES6+)
+- CSS (Inline styles)
+
+## Usage
+
+- Type a task into the input box and press **Add Task** or hit **Enter**.
+- Click on a task to toggle its completion status.
+- Click the edit icon (✎) to modify the task and save or cancel.
+- Use pagination buttons to navigate between pages of tasks.
+
+## Deployment
+
+This app is deployed on Vercel and automatically updates on new GitHub commits.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+*Created by Aditya Varshney*
